@@ -11,5 +11,11 @@ export const educations = [
     title: "Higher Secondary Education",
     duration: "2017 - 2019",
     institution: "P.R College Sonepur Bihar",
+  },
+  {
+    id: 3,
+    title: "Matriculation",
+    duration: "2010 - 2016",
+    institution: "VS Public School Bhopal"
   }
 ]
