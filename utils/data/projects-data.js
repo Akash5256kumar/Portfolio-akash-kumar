@@ -1,42 +1,41 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Kautilya Classes - EdTech Platform',
+        description: "Launched a comprehensive learning ecosystem with live streaming, 10K+ on-demand videos, assessments, and progress tracking for 500K+ exam preparation students. Engineered a video player featuring adaptive bitrate, offline downloads (40% bandwidth savings), picture-in-picture, and variable playback speed, boosting engagement by 80%. Integrated Razorpay gateway supporting multiple subscription tiers, auto-renewal, and refund processing, managing 15M+ annual revenue. Orchestrated 2M+ monthly targeted push notifications via FCM achieving 42% open rate through personalized recommendations. Enhanced reliability using Crashlytics, reducing crash rate from 2.8% to 0.6% and extending session duration by 35%.",
+        tools: ['Flutter', 'Dart', 'Firebase', 'Razorpay', 'REST API'],
+        role: 'Mobile Application Developer',
         code: '',
-        demo: '',
+        demo: 'Play Store',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'AFHC Healthcare System',
+        description: 'Delivered healthcare app enabling appointment scheduling, medical record access, telemedicine, and medication reminders for 10K+ active users. Crafted offline-first architecture using SQLite and Hive with auto-sync, ensuring full functionality in low-connectivity rural areas serving 3000+ patients. Migrated from Android SDK 28 to 33 and iOS 12 to 16, resolving 50+ deprecations and improving stability by 40%. Secured sensitive data with HIPAA-compliant AES-256 encryption, SSL pinning, and biometric authentication.',
+        tools: ['Flutter', 'Dart', 'Java', 'Swift', 'SQLite', 'Git'],
+        role: 'Mobile Application Developer',
         code: '',
-        demo: '',
+        demo: 'Play Store',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Darwix AI',
+        description: 'Architected and developed custom Moodle mobile applications (iOS & Android) serving 1000+ daily active users across 10+ companies. Built 15+ custom Moodle plugins including advanced quiz modules, custom enrollment systems, and interactive learning activities with 99.8% uptime. Engineered offline-first mobile architecture enabling seamless content access without internet connectivity, improving user retention by 45%. Integrated 10+ third-party APIs including BigBlueButton, OneSignal, Google Translator, Mixpanel, and analytics platforms. Optimized database queries and implemented Redis caching, reducing API response time by 65%. Developed custom Moodle web services supporting 100+ concurrent API requests with load balancing. Implemented push notification system delivering 10k+ notifications monthly with 85% open rate. Created automated CI/CD pipelines reducing deployment time from 4 hours to 15 minutes. Led end-to-end Moodle Mobile application development from concept to deployment on both Play Store and Apple App Store.',
+        tools: ['iOS', 'Android', 'Moodle', 'Redis', 'BigBlueButton', 'OneSignal', 'Mixpanel', 'CI/CD'],
+        role: 'Mobile Application Developer',
         code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        demo: '1K+ Downloads (Play Store & App Store)',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Satyug Darshan App',
+        description: 'Developed a cross-platform spiritual content application for iOS, Android, and Web focusing on seamless media streaming, offline access, and real-time user engagement. Built scalable architecture using React Native (Expo) with TypeScript. Implemented secure OTP-based login and JWT session management. Developed audio streaming and background playback with offline downloads via Track Player. Designed robust features including a real-time chat system, Kirtan audio playlists, In-app PDF viewer for e-books, scheduled meditation notifications, and events listing with live video. Handled state management with Zustand and Context, and integrated REST APIs via Axios. Enabled hyper-fast local storage utilizing MMKV and Expo Secure Store. Set up complex dynamic forms using Formik and Yup validation. Handled analytics & push notifications via LogRocket and Expo Notifications, while streamlining deployments using EAS for automated CI/CD pipelines.',
+        tools: ['React Native', 'Expo', 'TypeScript', 'Zustand', 'RxJS', 'Axios', 'MMKV', 'Expo Secure Store', 'LogRocket', 'EAS CI/CD'],
+        role: 'Mobile Application Developer',
         code: '',
-        demo: '',
-        role: 'Full Stack Developer',
+        demo: 'Play Store, App Store, Web',
     }
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
